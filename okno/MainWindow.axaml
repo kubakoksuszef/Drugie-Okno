@@ -7,5 +7,8 @@
         Title="Drugie Okno"
         Width="600" Height="400"
         WindowStartupLocation="CenterScreen">
-    <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+        <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center" />
+        <Button Content="Kliknij mnie" HorizontalAlignment="Center" />
+    </StackPanel>
 </Window>
