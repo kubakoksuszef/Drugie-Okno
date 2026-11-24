@@ -5,6 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="okno.MainWindow"
         Title="Drugie Okno"
-        Width="600" Height="400">
+        Width="600" Height="400"
+        WindowStartupLocation="CenterScreen">
     <TextBlock Text="Warsztat" HorizontalAlignment="Center" VerticalAlignment="Center" />
 </Window>
