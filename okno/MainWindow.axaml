@@ -13,5 +13,6 @@
         <TextBox Watermark="Wpisz cos tutaj..." Width="300" HorizontalAlignment="Center" />
         <Slider Minimum="0" Maximum="100" Value="50" Width="300" HorizontalAlignment="Center" />
         <CheckBox Content="Zgadzam sie" HorizontalAlignment="Center" />
+        <TextBlock Text="Autor: Tymek Junak" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
