@@ -11,5 +11,6 @@
         <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue" HorizontalAlignment="Center" />
         <Button Content="Kliknij mnie" HorizontalAlignment="Center" />
         <TextBox Watermark="Wpisz cos tutaj..." Width="300" HorizontalAlignment="Center" />
+        <Slider Minimum="0" Maximum="100" Value="50" Width="300" HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
