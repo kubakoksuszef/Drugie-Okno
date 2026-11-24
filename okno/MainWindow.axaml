@@ -7,5 +7,5 @@
         Title="Drugie Okno"
         Width="600" Height="400"
         WindowStartupLocation="CenterScreen">
-    <TextBlock Text="Warsztat" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    <TextBlock Text="Warsztat" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" />
 </Window>
