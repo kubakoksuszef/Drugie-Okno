@@ -9,7 +9,7 @@
         WindowStartupLocation="CenterScreen">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
         <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue" HorizontalAlignment="Center" />
-        <Button Content="Kliknij mnie" HorizontalAlignment="Center" />
+        <Button Content="Kliknij mnie" Background="Green" Foreground="White" HorizontalAlignment="Center" />
         <TextBox Watermark="Wpisz cos tutaj..." Width="300" HorizontalAlignment="Center" />
         <Slider Minimum="0" Maximum="100" Value="50" Width="300" HorizontalAlignment="Center" />
         <CheckBox Content="Zgadzam sie" HorizontalAlignment="Center" />
