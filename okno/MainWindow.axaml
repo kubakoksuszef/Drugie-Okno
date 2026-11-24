@@ -7,12 +7,15 @@
         Title="Drugie Okno"
         Width="600" Height="400"
         WindowStartupLocation="CenterScreen">
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
-        <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue" HorizontalAlignment="Center" />
-        <Button Content="Kliknij mnie" Background="Green" Foreground="White" HorizontalAlignment="Center" />
-        <TextBox Watermark="Wpisz cos tutaj..." Width="300" HorizontalAlignment="Center" />
-        <Slider Minimum="0" Maximum="100" Value="50" Width="300" HorizontalAlignment="Center" />
-        <CheckBox Content="Zgadzam sie" HorizontalAlignment="Center" />
-        <TextBlock Text="Autor: Tymek Junak" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" />
-    </StackPanel>
+    <Border BorderBrush="DodgerBlue" BorderThickness="2" CornerRadius="10" Padding="30"
+            HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Spacing="20">
+            <TextBlock Text="Warsztat" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue" HorizontalAlignment="Center" />
+            <Button Content="Kliknij mnie" Background="Green" Foreground="White" HorizontalAlignment="Center" />
+            <TextBox Watermark="Wpisz cos tutaj..." Width="300" HorizontalAlignment="Center" />
+            <Slider Minimum="0" Maximum="100" Value="50" Width="300" HorizontalAlignment="Center" />
+            <CheckBox Content="Zgadzam sie" HorizontalAlignment="Center" />
+            <TextBlock Text="Autor: Tymek Junak" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" />
+        </StackPanel>
+    </Border>
 </Window>
